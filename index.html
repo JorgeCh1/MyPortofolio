@@ -5,84 +5,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Jorch's Portofolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-content">
-            <div class="header-logo-container">
-                <div class="logo-img-cont">
-                    <img src="#" alt="Profile Image" class="header-logo-img">
-                </div>
-                <span class="header-logo-sub">Jorge Chávez</span>
+    <div class="container">
+        <img src="resources/sun.png" alt="" id="icon">
+        <!--Profile section-->
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="resources/profile-icon.jpg" alt="User Avatar">
             </div>
-            <div class="header-main">
-                <ul class="header-links">
-                    <li class="header-link-wrapper">
-                        <a href="#" class="header-link"> Home </a>
-                    </li>
-                    <li class="header-link-wrapper">
-                        <a href="#" class="header-link"> About </a>
-                    </li>
-                    <li class="header-link-wrapper">
-                        <a href="#" class="header-link"> Projects </a>
-                    </li>
-                    <li class="header-link-wrapper">
-                        <a href="#" class="header-link"> Contact </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <section class="container">
-        <div class="card">
-            <div class="card-top">
-                <h3>Who's out there?</h3>
-            </div>
-            <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
-            <h2>I'm Jorge Chávez</h2>
-            <h3>I am an active student of Information Systems Engineering at the Universidad Centroamericana (UCA).</h3>
-            <h3>I am excited about what technology can do. Therefore, I am interested in learning new technologies such
-                as
-                Front-End.</h3>
-            </div>
-            <div class="card">
-                <div class="card-top">
-                    <h3>Technologies</h3>
-                </div>
-                <h2>Here are the technologies that I learned</h2>
-                <div class="content-skills">
-                    <div class="skills">
-                        <div class="skills-skills">HTML</div>
-                        <div class="skills-skills">CSS</div>
-                        <div class="skills-skills">JavaScript</div>
-                        <div class="skills-skills">React</div>
-                        <div class="skills-skills">SASS</div>
-                        <div class="skills-skills">GIT</div>
-                        <div class="skills-skills">Shopify</div>
-                        <div class="skills-skills">Wordpress</div>
-                        <div class="skills-skills">Google ADS</div>
-                        <div class="skills-skills">Facebook Ads</div>
-                        <div class="skills-skills">Android</div>
-                        <div class="skills-skills">IOS</div>
+            <div class="profile-details">
+                <div class="intro">
+                    <h2>Jorge Chávez</h2>
+                    <h4>Estudiante</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook" style="color: var(--blue)"></i></a>
+                        <a href="#"><i class="fab fa-twitter" style="color: var(--skyblue)"></i></a>
+                        <a href="#"><i class="fab fa-instagram" style="color: var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin" style="color: var(--light-blue)"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-top">
-                    <h3>Who's out there?</h3>
+                <div class="contact-info">
+    
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-phone" style="color: var(--dark-magenta)"></i>
+                        </div>
+                        <div class="content">
+                            <span>Phone</span>
+                            <h5>+505 85845763</h5>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open" style="color: var(--light-green)"></i>
+                        </div>
+                        <div class="content">
+                            <span>Email</span>
+                            <h5>chavezavileshj@gmail.com</h5>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" style="color: var(--light-purple)"></i>
+                        </div>
+                        <div class="content">
+                            <span>Location</span>
+                            <h5>Managua, Nicaragua</h5>
+                        </div>
+                    </div>
                 </div>
-                <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
-                <h2>I'm Jorge Chávez</h2>
-                <h3>I am an active student of Information Systems Engineering at the Universidad Centroamericana (UCA).</h3>
-                <h3>I am excited about what technology can do. Therefore, I am interested in learning new technologies such
-                    as
-                    Front-End.</h3>
+                <div>
+                    <button class="download-btn">Download CV</button>
+                </div>
             </div>
         </div>
-    </section>
+        <!--Profile section-->
+    
+        <!--About section-->
+        <div class="about">
+            <h1>About Me</h1>
+            <p>Hi! I'm Jorge Alberto Chavez, a student programmer who also has an eye in the design world.
+                I consider myself a focused person who learns fast and I have great communication and teamwork skills.
+                Currently, I have experience developing desktop and mobile applications. Also in the creation and design of
+                web pages.
+            </p>
+            <p>
+                At present, I am participating in the development of 'InfoLabs'
+                a high impact project for the Labs area of the Universidad Centroamericana.
+            </p>
+            <p>
+                I am currently an active student of Information Systems Engineering at the
+                Universidad Centroamericana de Nicaragua and I hope to apply the knowledge I have learned when I finish my
+                degree.
+            </p>
+            <p>
+                My interests include playing video games, watching series and movies.
+                Occasionally, I'm immersed in mobile development courses (or whatever I'm interested in at the time).
+            </p>
+            <h2>What I Do !!!</h2>
+            <div class="work">
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="resources/web.svg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Frontentd Developer</h3>
+                        <p>Creation and design of the user interface (UI) and user experience (UX).
+                            <i>Web or mobile applications</i>.
+                        </p>
+                    </div>
+                </div>
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="resources/config.svg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Some Stuff</h3>
+                        <p>Other things would go here...</p>
+                    </div>
+                    </div>
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="resources/desktop.svg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>Desktop Developer</h3>
+                        <p>Creation and development of software applications for desktop platforms.
+                            <i>Some languages: C++, C# and Java</i>.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="workbox">
+                        <div class="icon">
+                            <img src="resources/moble.svg" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>Mobile Developer</h3>
+                            <p>Development of functional and efficient applications for mobile devices with an optimal user experience.
+                                <i>Some languages: Kotlin/Java and Dart/Flutter (In Progress..)</i>.
+                            </p>
+                        </div>
+                        </div>
+                </div>
+        </div>
+        <!--About section-->
+    </div>
+    <script type="text/javascript" src="src/dark-mode.js"></script>
 </body>
 
 </html>
