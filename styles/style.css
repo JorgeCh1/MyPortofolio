@@ -150,7 +150,7 @@ body {
     background-color: var(--color-secondary);
     text-align: center;
     color: var(--color-primary);
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 .row .icon:hover {
