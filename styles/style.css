@@ -268,7 +268,3 @@ body {
 .light-mode {
     background: linear-gradient(80deg, var(--light-green), var(--light-purple));
 }
-
-.dark-mode {
-    background: linear-gradient(80deg, var(--purple-light), var(--blue));
-}
